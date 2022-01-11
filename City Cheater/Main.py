@@ -15,6 +15,7 @@ def main():
 
 def split(word):
     word = word.replace("\n", "")
+    word = word.replace(" ", "")
     return [char for char in word]
 
 def wordMaker(city):
